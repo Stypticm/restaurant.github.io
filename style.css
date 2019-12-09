@@ -1,0 +1,23 @@
+body {
+   background-color: rgb(142, 159, 160); 
+   margin: 10px;
+   height: 100%;
+}
+
+html {
+   overflow-x: hidden;
+   margin-right: calc(-1 * (100vw - 100%));
+}
+
+.header {
+   display: flex;
+   justify-content: space-around;
+}
+
+.btn-link:hover {
+   text-decoration: none;
+}
+
+.tab {
+   padding: 20px;
+}
